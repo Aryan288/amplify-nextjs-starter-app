@@ -15,6 +15,7 @@ frontend:
       commands:
         - npm run build
         - node poc.js
+        - node test.js
   artifacts:
     baseDirectory: .next
     files:
